@@ -1,3 +1,3 @@
-# wp-base-block-theme
+# A boilerplate for creating block themes for WordPress
 
-A base for creating wordpress block themes
+This is currently under development.
