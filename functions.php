@@ -32,6 +32,7 @@ if ( ! function_exists( 'wowpixels_styles' ) ) :
 
         wp_enqueue_style( 'wowpixels-style', get_stylesheet_uri(), array(), wp_get_theme()->get('Version'));
         wp_enqueue_style( 'wowpixels-style-blocks', get_template_directory_uri() . '/assets/css/blocks.css');
+        wp_enqueue_style( 'tailwindcss_output', get_template_directory_uri() . '/dist/output.css', array() );
 
     }
 
