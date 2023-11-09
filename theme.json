@@ -1,3 +1,83 @@
 {
-  "$schema": "https://schemas.wp.org/trunk/theme.json"
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1183px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "primary-color",
+          "color": "#222222",
+          "name": "Black"
+        },
+        {
+          "slug": "secondary-color",
+          "color": "#d35836",
+          "name": "Red"
+        },
+        {
+          "slug": "tertiary-color",
+          "color": "#4286de",
+          "name": "Blue"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'Fira Sans', sans-serif",
+          "slug": "fira-sans",
+          "name": "Fira Sans",
+          "fontFace": [
+            {
+              "fontFamily": "'Fira Sans', sans-serif",
+              "fontWeight": "300",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/FiraSans-Light.ttf"]
+            },
+            {
+              "fontFamily": "'Fira Sans', sans-serif",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/FiraSans-Regular.ttf"]
+            },
+            {
+              "fontFamily": "'Fira Sans', sans-serif",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/FiraSans-Bold.ttf"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "Agbalumo, Arial",
+          "slug": "agbalumo",
+          "name": "Headings - Agbalumo"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--fira-sans)",
+      "lineHeight": "1.75",
+      "fontSize": "1rem"
+    },
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--agbalumo)",
+          "fontWeight": "400",
+          "lineHeight": "1.8",
+          "fontSize": "3rem"
+        }
+      }
+    }
+  }
 }
